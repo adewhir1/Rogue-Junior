@@ -21,8 +21,7 @@ using namespace std ;
 
 
 /**
-    These variable types are from conio.h, the c++ console header file.
-    They help us avoid redrawing the entire map every time the player moves.
+    These variable help avoid redrawing the entire map every time the player moves.
 */
 COORD level_title = {0, 0} ;
 COORD HP_count = {1 , 20};
